@@ -1,0 +1,134 @@
+body{
+    padding-top: 50px;
+    width: 100%;
+    height: auto;
+    background-color:hsl(228, 20%, 95%);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 1139px) and (min-width: 760px) {
+  .section-of-card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .item1-of-project,
+  .item2-of-project,
+  .item3-of-project {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+
+.section-of-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contain-two-p-of-first-header{
+     font-size: 3rem;
+     color: #3a3a3b;
+     line-height: 3rem;
+     text-align: center;
+}
+
+.contain-two-p-of-second-header{
+    font-size: 1.2rem;
+    color: #5d5d5e;
+    line-height:2rem;
+    text-align: center;
+}
+
+.first-card{
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    max-width: 300px;
+    height: 222px;
+    text-align: left;
+    color: #5d5d5e;
+    position: relative;
+    border-radius: 0.3rem;
+    border-top: 5px solid rgb(4, 189, 189);
+    box-shadow: 1px 1px 7px 0px;
+    align-items: center;
+}
+
+h2 {
+    color: #3a3a3b;
+}
+
+.img-of-supervisor-card{
+    display: flex;
+    width: 57px;
+    max-width: 100%;
+    height: auto;
+    position:absolute;
+    bottom: 13%;
+    right:10%;
+    overflow:clip;
+}
+
+.second-card{
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    max-width: 300px;
+    height: 222px;
+    text-align: left;
+    color: #5d5d5e;
+    position: relative;
+    border-radius: 0.3rem;
+    border-top: 5px solid rgb(224, 52, 4);
+    box-shadow: 1px 1px 7px 0px;
+    align-items: center;
+}
+
+
+.third-card{
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    max-width: 300px;
+    height: 222px;
+    text-align: left;
+    color: #5d5d5e;
+    position: relative;
+    border-radius: 0.3rem;
+    border-top: 5px solid rgb(232, 232, 8);
+    box-shadow: 1px 1px 7px 0px;
+    align-items: center;
+}
+
+
+
+.fourth-card{
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    max-width: 300px;
+    height: 222px;
+    text-align: left;
+    color: #5d5d5e;
+    position: relative;
+    border-radius: 0.3rem;
+    border-top: 5px solid rgb(22, 4, 189);
+    box-shadow: 1px 1px 7px 0px;
+    align-items: center;
+}
+
+.item1-of-project{
+  display: flex;
+  justify-content: center;
+  align-items: center;              
+}
+
+.item3-of-project{
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+}
